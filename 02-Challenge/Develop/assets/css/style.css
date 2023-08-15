@@ -1,3 +1,4 @@
+/* FULL BODY FORMATTING */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* HEADER FORMATTING */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +26,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +34,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -46,11 +48,9 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+/* WEBSITE TITLE PHOTO */
 
-.hero {
+.collab-photo {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -58,7 +58,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* MAIN 3 SECTIONS EDITING */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,13 +69,32 @@ p {
     margin-left: 25px;
 }
 
-.content {
+.main-section-content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+.main-section-content section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.main-section-content section img {
+    max-height: 200px;
+}
+.main-section-content section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+p {
+    font-size: 16px;
+}
 
-.benefits {
+/* ASIDE FORMATTING [RIGHT OF SCREEN] */
+.aside-benefit-format {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -85,6 +104,40 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
+.aside-benefit-format section{
+    margin-bottom: 32px;
+    color: #ffffff
+}
+
+.aside-benefit-format section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.aside-benefit-format section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* FOOTER FORMATTING */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+
+/* CAN DELETE: 
+THIS WAS MESSY TEXT FROM THE STARTER CODE. WILL KEEP TO REFER TO WHEN STUDYING
+
+
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -99,9 +152,9 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-.benefit-lead h3 {
+/* .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -132,8 +185,11 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
+
+/*
+THESE ARE ALL THE SAME I DON'T NEED THEM. WILL MAKE A SINGLE SELECTOR FOR ALL SECTIONS IN MAIN
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -159,9 +215,10 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.search-engine-optimization img {
+
+/* .search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -171,9 +228,10 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
-.search-engine-optimization h2 {
+
+/* .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -186,15 +244,5 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
-}
