@@ -17,16 +17,16 @@ header {
     color: #ffffff;
 }
 
-header h1 { /* Do I have to keep it as H1? header h1 looks easier to me*/
+header h1 { 
     display: inline-block;
     font-size: 48px;
 }
 
-.seo { /*Deleted the header h1 since this is the only seo*/
+#seo { 
     color: #d9dcd6;
 }
 
-nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -59,6 +59,7 @@ a {
     background-position: center;
 }
 /* MAIN 3 SECTIONS EDITING */
+    /* images alternating left and right */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,7 +69,7 @@ a {
     float: right;
     margin-left: 25px;
 }
-
+    /* main selectors */
 main {
     width: 75%;
     display: inline-block;
@@ -89,7 +90,7 @@ main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-p {
+main section p {
     font-size: 16px;
 }
 
