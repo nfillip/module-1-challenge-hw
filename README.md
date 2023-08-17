@@ -17,5 +17,5 @@ UDenver Team: SPICY 1
 Tutor: Josshy Olea
 
 ## Website Screenshot
-nfillip.github.io/module-1-challenge-hw
+[Horiseon Website Link](https://nfillip.github.io/module-1-challenge-hw)
 ![Alt text](website-screenshot.JPG)
