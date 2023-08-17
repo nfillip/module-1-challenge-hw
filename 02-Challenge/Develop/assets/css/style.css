@@ -10,23 +10,23 @@ body {
 }
 
 /* HEADER FORMATTING */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 { /* Do I have to keep it as H1? header h1 looks easier to me*/
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.seo { /*Deleted the header h1 since this is the only seo*/
     color: #d9dcd6;
 }
 
-.header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,11 +34,11 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -69,12 +69,12 @@ a {
     margin-left: 25px;
 }
 
-.main-section-content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-.main-section-content section {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -82,10 +82,10 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-.main-section-content section img {
+main section img {
     max-height: 200px;
 }
-.main-section-content section h2 {
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -94,7 +94,7 @@ p {
 }
 
 /* ASIDE FORMATTING [RIGHT OF SCREEN] */
-.aside-benefit-format {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -105,17 +105,17 @@ p {
     background-color: #2589bd;
 }
 
-.aside-benefit-format section{
+aside section{
     margin-bottom: 32px;
     color: #ffffff
 }
 
-.aside-benefit-format section h3 {
+aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.aside-benefit-format section img {
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
